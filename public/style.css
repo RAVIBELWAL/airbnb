@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    color: white;    
+}
+
+.container{
+
+}
+
+.nav, .nav2{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.nav2{
+    padding: 15px 0px 18px 0px;
+
+}
+
+.logo{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+#link a{ 
+    color: white;
+    text-decoration: none;
+}
+
+#link {
+ display: flex;
+ gap: 2vw;
+ padding-top: 15px;
+}
+
+.bt1{color: rgb(86, 86, 86);
+display:inline-flex ;
+justify-content: center;
+gap: 1.5vw;
+background-color: white;
+height:45px;
+width: 5.5rem;
+border-radius: 20px;;
+}
+
+.headerRight{
+    display: flex;
+    gap: 3vw;
+}
+
+.headerRight span{padding-top: 15px;}
+
+.headerRight .bt1 i 
+{padding-top: 15px;}
+
+ /*menu below header*/
+#menu{color: black;}
+
+/*----------------------*/
+
+.menu_div{background-color: black; padding-bottom: 20px;}
+
+#menu
+{   
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 60px;
+    padding-bottom: 10px;
+}
+
+#menu .option{
+    padding-top: 15px;
+}
+
+#menu .option :nth-child(2)
+{color: rgb(150, 150, 150);}
+
+#menu :nth-child(4)
+{display: flex;
+gap:15px
+
+}
+
+#menu .option #search{
+    margin-left: 10px;
+    background-color:#fd1943;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    
+}
+
+.fa-search{
+    vertical-align: -18px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+
+.fa-airbnb{
+    font-size: 2.5rem;
+    vertical-align: -6px;
+}
+
+.fa-user{
+
+}
+
+.homeBgImg{
+   background-color: black;
+   height: 75vh; 
+}
+
+.bgImg1
+{
+    background-image: url('airbnbBack1.webp') ;
+    background-size: cover;
+    border-radius: 13px;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+/*---------------------*/
+
+@media only screen and (max-width:645px){
+  .nav,.nav2{display: none;}
+  
+}
+
+
+@media screen and (max-width: 950px) AND (min-width: 646px)
+{
+    #link a{/*padding-top: 6vh;
+    font-size: 1.1em;*/
+    display: none;
+    }
+    
+    #link2{
+        display: flex;
+        gap: 8vh;
+    }
+
+    #link2 a{
+        text-decoration: none;
+        color: white;        
+   }
+
+    .logo span {display: none;} 
+}   
+
+
+@media screen and (min-width: 951px)
+{
+    .nav2{display: none;}
+#menu
+{   
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+}
+
+
