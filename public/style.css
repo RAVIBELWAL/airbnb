@@ -126,7 +126,31 @@ gap:15px
     height: 90%;
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
 }
+
+.bgHeading{
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+.bgImgBtn{
+    background-color: white;
+    color: #66186c;
+    height: 2em;
+    width: 170px;
+    text-align: center;
+    font-weight:600;
+    font-size: 1.5em;
+    border-radius: 2.5em;
+    margin-bottom: 30px;
+    padding-top: 1rem;
+}
+
+.bgImgBtn span{color: #8e1496;}
 
 /*---------------------*/
 
