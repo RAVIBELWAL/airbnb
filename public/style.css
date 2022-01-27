@@ -290,3 +290,75 @@ gap:15px
 .desColor2 {background-color: #DE3151;}
 .desColor3{background-color: #D93B30; }
 .desColor4{background-color: #BC1A6E; }
+
+/*-------experience---------*/
+.experience{
+    color: black;
+    font-size: 1.8rem;
+    font-weight:600;
+    padding-left: 5vw;
+}
+
+.experCardDiv{
+    display: flex;
+    color: black;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.experCard1,.experCard2{
+    height: 45vh;
+    width: 43vw;
+    border-radius: 10px;
+    background-image: url("https://a0.muscache.com/im/pictures/35612883-8e4c-440a-a768-ca7f268bd294.jpg?im_w=720");    
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-top: 3vh;
+}
+
+.experCard2{
+    background-image: url("https://a0.muscache.com/im/pictures/aec597d9-9c5c-4746-965c-d3e1643299f7.jpg?im_w=720");    
+}
+
+.experCardBtn{
+    margin-top: 2.5vh;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: white;
+    width:fit-content;
+    padding:10px 15px 10px 15px;
+    border-radius: 6px;
+}
+
+.questionDiv{
+    margin-top: 8vh;
+    background-image: url("https://a0.muscache.com/im/pictures/aa630fb7-eeb3-4fc1-aa69-456c0eb83d8b.jpg?im_w=1440");
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: 8vh;
+}
+.queHead{
+padding-top: 5vh;
+padding-left: 5vw;
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.quebtn{
+    margin-top: 12vh;
+    margin-left: 5vh;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+}
+
+
