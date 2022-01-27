@@ -154,6 +154,8 @@ gap:15px
 
 .option,.bgImgBtn{cursor: pointer;}
 
+
+
 /*---------------------*/
 
 @media only screen and (max-width:645px){
@@ -231,3 +233,60 @@ gap:15px
 }
 
 
+/*--tripBannerCard--*/
+
+
+
+.tripTo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: red;
+    margin-top: 35px;
+
+}
+
+#BannerCardImg{
+    width: 23.5vw;
+    height: 175px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.placeDis{
+    margin-top: -5px;
+    background-color: #fd1943;
+    height: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.desCardHead, .desCardDist{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.75rem;
+    padding-left: 15px;
+}
+
+.desCardDist{
+    font-size: 1rem;
+    margin-top: 0;
+    
+}
+
+.destiCard{
+    margin-bottom: 20px;
+}
+
+.tripToHeader{
+    font-weight: lighter;
+    font-size: 1.75rem;
+    color: black;}
+
+.desColor1 {background-color: #D93B30;}
+.desColor2 {background-color: #DE3151;}
+.desColor3{background-color: #D93B30; }
+.desColor4{background-color: #BC1A6E; }
