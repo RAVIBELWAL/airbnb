@@ -340,7 +340,7 @@ gap:15px
     margin-top: 8vh;
     background-image: url("https://a0.muscache.com/im/pictures/aa630fb7-eeb3-4fc1-aa69-456c0eb83d8b.jpg?im_w=1440");
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     margin-bottom: 8vh;
 }
@@ -353,7 +353,7 @@ font-size: 2.5rem;
 
 .quebtn{
     margin-top: 12vh;
-    margin-left: 5vh;
+    margin-left: 10vh;
     color: black;
     background-color: white;
     width: fit-content;
@@ -362,3 +362,59 @@ font-size: 2.5rem;
 }
 
 
+/*--otherLinks--*/
+.otherLinks{
+    height: fit-content;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vw;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 10px;
+    padding-bottom: 5vh;
+    background-color: rgba(236, 236, 236, 0.666);
+      
+}
+
+.linkBorder{    border-bottom: solid #00000061 1px;
+    width: 90vw;
+    margin-left: 5vw;}
+
+.impLink{
+    margin-top: 11px;
+}
+
+.otherLinks a{ 
+    font-weight: lighter; 
+    text-decoration: none; 
+    color: rgba(46, 46, 46, 0.918);
+}
+/*--footer--*/
+
+.footer{
+color: black;
+height: 20vh;
+margin-top: 5vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.footer a{ 
+text-decoration: none;
+color: rgba(46, 46, 46, 0.918);
+}
+
+.iconDiv{display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 5vw;}
+
+.cc{margin-top: 2.5vh;}
+
+.privacyNmore a span{
+    font-weight: 900;
+    vertical-align: 4px;
+ }
