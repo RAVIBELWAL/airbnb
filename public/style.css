@@ -317,7 +317,7 @@ padding-right: 0px;
 
 .tripToHeader{
     font-weight: lighter;
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     color: black;
     margin-left: 1vw;}
 
@@ -329,7 +329,7 @@ padding-right: 0px;
 /*-------experience---------*/
 .experience{
     color: black;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight:600;
     padding-left: 5vw;
 }
