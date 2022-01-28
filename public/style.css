@@ -218,6 +218,15 @@ padding-right: 0px;
         padding-left: 10px;
     }
 
+    .otherLinks{
+     display: flex;
+     flex-direction: column;   
+    }
+
+    .linkBorder1{border-bottom: solid #8989895c 1px;
+        width: 90vw;
+        margin-top: 8px;
+        }
 
 }
 
@@ -229,6 +238,8 @@ padding-right: 0px;
         padding-top: 3vh;
     padding-bottom: 3vh;
     }
+
+    .impLink{margin-bottom: 8px;}
 
     #link a{/*padding-top: 6vh;
     font-size: 1.1em;*/
@@ -431,7 +442,7 @@ font-size: 2.5rem;
 
 .footer{
 color: black;
-height: 20vh;
+height: 16vh;
 margin-top: 5vh;
 display: flex;
 flex-direction: column;
