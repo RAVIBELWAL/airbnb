@@ -176,7 +176,7 @@ padding-right: 0px;
         width: 50px;
         height: 50px;
         color: #fd1943;
-        margin-top: -6px;
+        margin-top: -12px;
     }
 
     /*---header search s-phn*/
@@ -188,10 +188,21 @@ padding-right: 0px;
         padding-left: 15px;
     }
     .phnSearchText{
-        padding-top: 12px;
+        padding-top: 6px;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
+
+   .option{
+   width: 100%;
+   height: 2rem;
+    }
+
+    #search i{
+        vertical-align: -25px;
+        margin-right: 0px;
+    }
+
     .bgHeading{
         font-size: 1.5rem;
         margin-right: 0px;
