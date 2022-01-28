@@ -213,6 +213,10 @@ padding-right: 0px;
         gap: 20px;
     }
 
+    .tripTo{
+    
+    }
+
     .tripToHeader {
         font-size: 1.4rem;
         padding-left: 10px;
@@ -284,12 +288,20 @@ padding-right: 0px;
 
 .tripTo{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: red;
+    gap: 20px;
     margin-top: 35px;
-    flex-wrap: wrap;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
 }
+
+.tripTo::-webkit-scrollbar {
+    display: none;
+  }
 
 #BannerCardImg{
     width: 310px;
@@ -388,7 +400,7 @@ padding-right: 0px;
     background-image: url("https://a0.muscache.com/im/pictures/aa630fb7-eeb3-4fc1-aa69-456c0eb83d8b.jpg?im_w=1440");
     background-size: cover;
     height: 70vh;
-    width: 100vw;
+    width: 98vw;
     margin-bottom: 8vh;
 }
 .queHead{
