@@ -168,7 +168,9 @@ gap:15px
         height: 50px;
         color: #fd1943;
     }
-    
+
+    /*---header search s-phn*/
+
     .fa-search{
         vertical-align: -18px;
         font-size: 1.5rem;
@@ -181,11 +183,22 @@ gap:15px
         font-size: 1.2rem;
     }
     .bgHeading{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        margin-right: 0px;
+    }
+    
+    #menu :nth-child(4) {
+        display: flex;
+        gap: 0px;
     }
 
-}
+    .tripToHeader {
+        font-size: 1.4rem;
+        padding-left: 10px;
+    }
 
+
+}
 
 
 
@@ -243,11 +256,11 @@ gap:15px
     justify-content: space-evenly;
     color: red;
     margin-top: 35px;
-
+    flex-wrap: wrap;
 }
 
 #BannerCardImg{
-    width: 23.5vw;
+    width: 310px;
     height: 175px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -284,12 +297,13 @@ gap:15px
 .tripToHeader{
     font-weight: lighter;
     font-size: 1.75rem;
-    color: black;}
+    color: black;
+    margin-left: 1vw;}
 
-.desColor1 {background-color: #D93B30;}
-.desColor2 {background-color: #DE3151;}
-.desColor3{background-color: #D93B30; }
-.desColor4{background-color: #BC1A6E; }
+.desColor1 {background-color: #D93B30; width: 310px;}
+.desColor2 {background-color: #DE3151; width: 310px;}
+.desColor3{background-color: #D93B30; width: 310px;}
+.desColor4{background-color: #BC1A6E; width: 310px;}
 
 /*-------experience---------*/
 .experience{
@@ -304,11 +318,12 @@ gap:15px
     color: black;
     gap: 2vw;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .experCard1,.experCard2{
-    height: 45vh;
-    width: 43vw;
+    height: 450px;
+    width: 650px;
     border-radius: 10px;
     background-image: url("https://a0.muscache.com/im/pictures/35612883-8e4c-440a-a768-ca7f268bd294.jpg?im_w=720");    
     background-size: cover;
