@@ -8,12 +8,15 @@ body{
 }
 
 .nav, .nav2{
+    
     padding-top: 4vh;
     padding-bottom: 4vh;
     display: flex;
     justify-content: space-around;
     background-color: black;
 }
+
+.nav{ }
 
 .nav2{
     padding: 15px 0px 18px 0px;
@@ -61,7 +64,10 @@ border-radius: 20px;;
 
 /*----------------------*/
 
-.menu_div{background-color: black; padding-bottom: 20px;}
+.menu_div{
+    
+    background-color: black; 
+    padding-bottom: 20px;}
 
 #menu
 {   
