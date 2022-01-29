@@ -56,7 +56,10 @@ border-radius: 20px;;
     gap: 3vw;
 }
 
-.headerRight span{padding-top: 15px;}
+.headerRight span{padding-top: 15px;
+cursor: pointer;}
+
+.far, .fas, .fab {cursor: pointer;}
 
 .headerRight .bt1 i 
 {padding-top: 15px;}
@@ -366,6 +369,7 @@ padding-right: 0px;
 
 .destiCard{
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .tripToHeader{
@@ -423,6 +427,7 @@ padding-right: 0px;
     width:fit-content;
     padding:10px 15px 10px 15px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .questionDiv{
@@ -448,6 +453,7 @@ font-size: 2.5rem;
     width: fit-content;
     padding: 10px 20px 10px 20px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 
